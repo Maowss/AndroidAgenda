@@ -31,6 +31,7 @@
                 android:layout_marginTop="50px"/>
 
                 <EditText
+                    android:id="@+id/txtNome"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="50px"
@@ -47,6 +48,7 @@
                 android:layout_marginTop="20px"/>
 
                 <EditText
+                    android:id="@+id/txtNasc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="50px"
@@ -73,6 +75,7 @@
                 android:layout_marginTop="50px"/>
 
                 <EditText
+                    android:id="@+id/txtLog"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="50px"
@@ -89,6 +92,7 @@
                 android:layout_marginTop="20px"/>
 
                 <EditText
+                    android:id="@+id/txtCep"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="50px"
@@ -115,6 +119,7 @@
                 android:textStyle="italic"/>
 
                 <EditText
+                    android:id="@+id/txtEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="50px"
@@ -130,6 +135,7 @@
                 android:layout_marginTop="20px"/>
 
                 <EditText
+                    android:id="@+id/txtTel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="50px"
