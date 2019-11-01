@@ -8,7 +8,7 @@
     tools:context=".activity.CadastroUsuarioActivity">
 
 
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -148,6 +148,6 @@
             android:layout_gravity="center"
             android:layout_marginTop="50px"
             android:text="Adicionar"
-            android:textStyle="italic"/>
+            android:textStyle="italic"/>-->
 
 </LinearLayout>

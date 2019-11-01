@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <RelativeLayout
-        android:id="@+id/lstDadosUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/nome"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:id="@+id/idNome"
+            android:layout_width="343dp"
+            android:layout_height="113dp"
+            android:layout_alignEnd="@+id/idEmail"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="44dp"
+            android:layout_marginEnd="22dp"
             android:layout_marginRight="44dp"
-            android:layout_toStartOf="@+id/txtNome"
             android:text="Nome"
             android:textColor="#000"
-            android:textSize="25sp"
-            android:layout_toLeftOf="@+id/email" />
+            android:textSize="25sp" />
 
         <TextView
-            android:id="@+id/email"
+            android:id="@+id/idEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="27dp"
-            android:text="Email"
-            android:textSize="25sp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="27dp" />
+            android:layout_centerVertical="true"
+            android:layout_marginRight="27dp"
+            android:text="Email"
+            android:textSize="25sp" />
+
 
 
     </RelativeLayout>

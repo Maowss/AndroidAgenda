@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.CadastroUsuarioActivity"></activity>
-        <activity android:name=".activity.ListaUsuarioActivity" />
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.InflateActivity"></activity>
+        <activity android:name=".activity.ListaUsuarioActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity">
+
         </activity>
     </application>
 
